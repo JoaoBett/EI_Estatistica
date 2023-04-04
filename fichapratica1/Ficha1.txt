@@ -1,0 +1,7 @@
+Ficha nº1 - Distribuições de probabilidade
+
+1.
+a)Os resultados associados a esta experiência aletória são: Euro(E) ou Nacional(N).
+
+b)
+	i)Contradominio de X - (E) e (N)
