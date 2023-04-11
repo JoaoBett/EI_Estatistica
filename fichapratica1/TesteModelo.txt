@@ -15,9 +15,16 @@ c) A variável W=5−4X tem média ___   e a variancia ___
 
 d) Admita a independência do número de falhas entre motores do tipo A. A probabilidade de, em 10 motores, menos de 4 motores não tenham qualquer falha é __
 
-    a)
+    a)Fazer X*f(x) e somar tudo
+        0*0.3 + 1*0.4 + 2*0.2 + 3*0.1 = 1.1
 
-    b)
+    b)E(X^2) é o valor esperado de X ao quadrado e o desvio padrão é a raiz quadrada da variancia
+        -multiplicar todos os valores de X por si proprio(ou seja, fazer o quadrado de cada X)
+            0*0 = 0
+            1*1 = 1
+            2*2 = 4
+            3*3 = 9
+
 
     c)
 
@@ -33,9 +40,12 @@ a) A probabilidade do tempo de produção se situar entre 5.6 e 6.4 minutos é _
 
 b) A média do tempo de produção é de ____ em minutos.
 
-    a)
+    a)Fazer no R - subtrair o resultado do 6.4 com o resultado de 5.6
+        punif(c(5.6,6.4), min=5, max=7, lower.tail=TRUE) - 0.3 0.7
+        
+        R:0.4
 
-    b)
+    b)Valor esperado que é 7+5/2 = 6
 
 
 3.
