@@ -20,18 +20,23 @@ d) Admita a independência do número de falhas entre motores do tipo A. A proba
 
     b)E(X^2) é o valor esperado de X ao quadrado e o desvio padrão é a raiz quadrada da variancia
         -multiplicar todos os valores de X por si proprio(ou seja, fazer o quadrado de cada X)
-            0*0 = 0
-            1*1 = 1
-            2*2 = 4
-            3*3 = 9
+            0*0 = 0 0.3*0.3 = 0.09
+            1*1 = 1 0.4*0.4 = 0.16
+            2*2 = 4 0.2*0.2 = 0.04
+            3*3 = 9 0.1*0.1 = 0.01
 
+        E(X^2)=2.1
+        Var= 0.8497 -   Errado  --- Correção:0.9434
 
     c)
-
+        Correção:
+            0.6     |   14.24
     d)Fazer no R
         pbinom(c(4), size=10, prob=0.5, lower.tail=FALSE)
             
             R:0.6230
+        Correção:
+            0.6496
 
 
 2.
@@ -65,17 +70,21 @@ ____
 
     a) 5 é o valor médio dentro do intervalo [4,6] então irá ser 0.5 para cima ou para baixo
         R: 0.5
+        Correção:
+            0.55
 
     b) 5 é o valor médio
         R:5hrs e 0 minutos
+        Correção:
+            5 horas e 4 minutos
 
     c)
 
             R:
         Pelo menos metade então tem que ser metade ou mais
             R:P(Y>=9)
-
-
+        Correção:
+            B(18,0.45)  |   P(Y=>9)     |   0.4222
 4.
 Admita que o tempo de reparação, em horas, de um determinado tipo de motor na oficina A pode ser descrito por uma variável aleatória X com distribuição normal de média 2 e desvio padrão 0.5. 
 
@@ -93,6 +102,9 @@ b) O tempo mínimo de reparação de 12% dos motores que demoram mais tempo a re
 
     b)Fazer no R o valor medio e 12% do valor medio - subtrair os resultados - coverter para minutos - adicionar 2hrs do valor medio mais o valor em minutos obtido
         pnorm(c(2,2.24), mean=2, sd=0.5, lower.tail=TRUE)
+
+        Correção:
+            155min
 
 
 5.
@@ -115,3 +127,5 @@ b) Seja Y a varável que representa o tempo decorrido, em horas, entre dois acid
 
 
             ii)Com a função descrita acima, fazer a exponencial 
+            Correção:
+                0.0392

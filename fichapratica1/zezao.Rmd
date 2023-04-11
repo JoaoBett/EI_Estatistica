@@ -1,0 +1,99 @@
+<!-- R Commander Markdown Template -->
+
+Replace with Main Title
+=======================
+
+### João Bettencourt
+
+### `r as.character(Sys.Date())`
+
+```{r echo=FALSE}
+# include this code chunk as-is to set options
+knitr::opts_chunk$set(comment=NA, prompt=TRUE, out.width=750, fig.height=8, fig.width=8)
+library(Rcmdr)
+library(car)
+library(RcmdrMisc)
+```
+
+
+### Normal Cumulative Probabilities
+```{r}
+pnorm(c(2,2.5), mean=2, sd=0.5, lower.tail=TRUE)
+```
+
+
+### Normal Quantiles
+```{r}
+qnorm(c(0.12), mean=2, sd=0.5, lower.tail=FALSE)
+```
+
+
+### Poisson Cumulative Probabilities
+```{r}
+ppois(c(0.8), lambda=0.1, lower.tail=TRUE)
+```
+
+
+### Table of Poisson Probabilities
+```{r}
+local({
+  .Table <- data.frame(Probability=dpois(0:5, lambda=0.8))
+  rownames(.Table) <- 0:5 
+  print(.Table)
+})
+```
+
+
+```{r}
+0.449328964
+```
+
+
+```{r}
++ 0.359463171
+```
+
+
+```{r}
++ 0.143785269
+```
+
+
+```{r}
++ 0.038342738
+```
+
+
+```{r}
++ 0.007668548
+```
+
+
+```{r}
++ 0.001226968
+```
+
+
+```{r}
+0.449328964 + 0.359463171 + 0.143785269 + 0.038342738 + 0.007668548 + 0.001226968
+```
+
+
+
+### Exponential Cumulative Probabilities
+```{r}
+pexp(c(0.4), rate=0.1, lower.tail=TRUE)
+```
+
+
+### Uniform Cumulative Probabilities
+```{r}
+punif(c(5.6,6.4), min=5, max=7, lower.tail=TRUE)
+```
+
+
+### Uniform Cumulative Probabilities
+```{r}
+punif(c(5), min=4, max=6, lower.tail=TRUE)
+```
+
