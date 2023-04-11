@@ -1,0 +1,61 @@
+<!-- R Commander Markdown Template -->
+
+Replace with Main Title
+=======================
+
+### João Bettencourt
+
+### `r as.character(Sys.Date())`
+
+```{r echo=FALSE}
+# include this code chunk as-is to set options
+knitr::opts_chunk$set(comment=NA, prompt=TRUE, out.width=750, fig.height=8, fig.width=8)
+library(Rcmdr)
+library(car)
+library(RcmdrMisc)
+```
+
+```{r}
+DadosNBA2013 <- 
+  readXL("C:/Users/João Bettencourt/Desktop/Bases+de+Dados+para+as+Folhas+2,+3+e+4-20200412/DadosNBA2013.xls", 
+  rownames=FALSE, header=TRUE, na="", sheet="Sheet1", stringsAsFactors=TRUE)
+```
+
+```{r}
+save("DadosNBA2013", 
+  file="C:/Users/João Bettencourt/Documents/GitHub/EI_Estatistica/fichapratica2/DadosNBA2013.RData")
+```
+
+```{r}
+save("DadosNBA2013", 
+  file="C:/Users/João Bettencourt/Documents/GitHub/EI_Estatistica/fichapratica2/DadosNBA2013.RData")
+```
+
+
+
+### Count Missing Cases: DadosNBA2013
+```{r}
+sapply(DadosNBA2013, function(x)(sum(is.na(x)))) # NA counts
+```
+
+
+```{r}
+DadosNBA2013$IMC <- with(DadosNBA2013, Peso/ (Altura/100)^2)
+```
+
+```{r}
+save("DadosNBA2013", 
+  file="C:/Users/João Bettencourt/Documents/GitHub/EI_Estatistica/fichapratica2/DadosNBA2013.RData")
+```
+
+
+```{r}
+DadosNBA2013$Peso_Grupo <- with(DadosNBA2013, binVariable(Peso, bins=9, method='intervals', labels=NULL))
+```
+
+```{r}
+save("DadosNBA2013", 
+  file="C:/Users/João Bettencourt/Documents/GitHub/EI_Estatistica/fichapratica2/DadosNBA2013.RData")
+```
+
+
