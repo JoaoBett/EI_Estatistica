@@ -28,7 +28,10 @@ d) Admita a independência do número de falhas entre motores do tipo A. A proba
 
     c)
 
-    d)
+    d)Fazer no R
+        pbinom(c(4), size=10, prob=0.5, lower.tail=FALSE)
+            
+            R:0.6230
 
 
 2.
@@ -60,11 +63,17 @@ c) Admita que o tempo de produção é independente de peça para peça e que Y 
 Pretende-se saber a probabilidade de que, em 18 peças, pelo menos metade tenham um tempo de produção inferior a 5 horas. Então a distribuição de Y é __ a probabilidade solicitada é dada por  ____  e o seu valor:
 ____
 
-    a)
+    a) 5 é o valor médio dentro do intervalo [4,6] então irá ser 0.5 para cima ou para baixo
+        R: 0.5
 
-    b)
+    b) 5 é o valor médio
+        R:5hrs e 0 minutos
 
     c)
+
+            R:
+        Pelo menos metade então tem que ser metade ou mais
+            R:P(Y>=9)
 
 
 4.
@@ -76,9 +85,14 @@ a) A probabilidade do tempo de reparação de um motor se situar entre 2 e 2.5 h
 
 b) O tempo mínimo de reparação de 12% dos motores que demoram mais tempo a reparar é igual a ___ minutos.
 
-    a)
+    a)Fazer no R a Normal - subtrair o resultado de ambos os valores
+        D-C-Normal(2,2.5, 2, 0.5)
+        pnorm(c(2,2.5), mean=2, sd=0.5, lower.tail=TRUE)
 
-    b)
+        R:0.3413
+
+    b)Fazer no R o valor medio e 12% do valor medio - subtrair os resultados - coverter para minutos - adicionar 2hrs do valor medio mais o valor em minutos obtido
+        pnorm(c(2,2.24), mean=2, sd=0.5, lower.tail=TRUE)
 
 
 5.
@@ -93,10 +107,11 @@ b) Seja Y a varável que representa o tempo decorrido, em horas, entre dois acid
     ii)Acabou de ocorrer um acidente. A probabilidade do próximo acidente ocorrer durante as próximas 4 horas é ____. 
 
 
-        a)
+        a)Fazer no R D-D-Poission-Probabilities(0.8) - Somar todos os valores inferiores a 3
+            R: 0.9526
 
         b)  
-            i)
+            i)Exp(0.1)
 
 
-            ii)
+            ii)Com a função descrita acima, fazer a exponencial 
