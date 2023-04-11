@@ -1,0 +1,92 @@
+-------Teste Modelo--------
+
+1.
+Seja X a variável aleatória que representa o número de falhas diárias de um motor do tipo A, cuja função de probabilidade f é dada por: 
+
+|x   |   0   |   1   |   2   |   3  |
+|-----------------------------------|
+|f(x)|  0.3  |  0.4  |  0.2  |  0.1 |
+
+a) O número médio de falhas diárias do motor do tipo A é igual a   ____
+
+b) E(X^2)= ___  e o desvio padrão de X é igual a ___
+ 
+c) A variável W=5−4X tem média ___   e a variancia ___
+
+d) Admita a independência do número de falhas entre motores do tipo A. A probabilidade de, em 10 motores, menos de 4 motores não tenham qualquer falha é __
+
+    a)
+
+    b)
+
+    c)
+
+    d)
+
+
+2.
+O tempo de produção de uma determinada peça, em minutos, é uma variável aleatória X com distribuição uniforme no intervalo [5,7].
+
+Admita independência entre o tempo de produção destas peças.
+
+a) A probabilidade do tempo de produção se situar entre 5.6 e 6.4 minutos é ___
+
+b) A média do tempo de produção é de ____ em minutos.
+
+    a)
+
+    b)
+
+
+3.
+O tempo de produção de uma determinada peça, em horas, é uma variável aleatória X com função densidade de probabilidade f definida por f(x)=0.1x, 4≤x≤6.
+
+a) A probabilidade do tempo de produção ser superior a 5 horas é de ___
+
+b) A média do tempo de produção é igual a __ horas e ____ minutos.
+
+c) Admita que o tempo de produção é independente de peça para peça e que Y representa o número de peças cujo tempo de produção é inferior a 5 horas de um total de 18 peças.
+
+Pretende-se saber a probabilidade de que, em 18 peças, pelo menos metade tenham um tempo de produção inferior a 5 horas. Então a distribuição de Y é __ a probabilidade solicitada é dada por  ____  e o seu valor:
+____
+
+    a)
+
+    b)
+
+    c)
+
+
+4.
+Admita que o tempo de reparação, em horas, de um determinado tipo de motor na oficina A pode ser descrito por uma variável aleatória X com distribuição normal de média 2 e desvio padrão 0.5. 
+
+Admita a independência entre o tempo de reparações destes motores.
+
+a) A probabilidade do tempo de reparação de um motor se situar entre 2 e 2.5 horas é _____
+
+b) O tempo mínimo de reparação de 12% dos motores que demoram mais tempo a reparar é igual a ___ minutos.
+
+    a)
+
+    b)
+
+
+5.
+O número de acidentes de trabalho na empresa B é bem modelado por uma distribuição de Poisson de média 0,1 por hora. A empresa labora 8 horas por dia.
+
+a) A probabilidade de haver menos de 3 acidentes na empresa B durante um dia é igual a ___.
+
+b) Seja Y a varável que representa o tempo decorrido, em horas, entre dois acidentes consecutivos de trabalho na empresa B.
+    i) A distribuição de Y é:
+        ___
+
+    ii)Acabou de ocorrer um acidente. A probabilidade do próximo acidente ocorrer durante as próximas 4 horas é ____. 
+
+
+        a)
+
+        b)  
+            i)
+
+
+            ii)

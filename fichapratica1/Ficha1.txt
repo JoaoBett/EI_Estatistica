@@ -5,3 +5,19 @@ a)Os resultados associados a esta experiência aletória são: Euro(E) ou Nacion
 
 b)
 	i)Contradominio de X - (E) e (N)
+
+	ii)	
+		X	|	P(X)
+		E	|	1/2
+		N	|	1/2
+	
+	iii)
+		∑ f(x) = 1 = 
+		= f(-2) + f(-1) + f(0) + f(1) + f(2) = 1
+		= ( (-2)^2 + 1 + (-1)^2 + 1 + 0^2 + 1 + 1^2 + 1 + 2^2 + 1 ) / β = 1
+		= 5β = 15
+		= β = 3  
+ 
+
+
+
