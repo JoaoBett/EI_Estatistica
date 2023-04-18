@@ -20,10 +20,10 @@ d) Admita a independência do número de falhas entre motores do tipo A. A proba
 
     b)E(X^2) é o valor esperado de X ao quadrado e o desvio padrão é a raiz quadrada da variancia
         -multiplicar todos os valores de X por si proprio(ou seja, fazer o quadrado de cada X)
-            0*0 = 0 0.3*0.3 = 0.09
-            1*1 = 1 0.4*0.4 = 0.16
-            2*2 = 4 0.2*0.2 = 0.04
-            3*3 = 9 0.1*0.1 = 0.01
+            0*0 = 0 0*0.3 = 0
+            1*1 = 1 1*0.4 = 0.4
+            2*2 = 4 4*0.2 = 0.8
+            3*3 = 9 9*0.1 = 0.9
 
         E(X^2)=2.1
         Var= 0.8497 -   Errado  --- Correção:0.9434
